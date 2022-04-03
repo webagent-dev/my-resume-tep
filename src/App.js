@@ -22,11 +22,6 @@ export default function App() {
 
   return (
     <>
-      <select onChange={e => setLanguage(e.target.value)}>
-        <option value="english">English</option>
-        <option value="polish">Polish</option>
-      </select>
-
       <div className="page">
         <div className="column left">
           <Details data={data.contact} />
@@ -35,7 +30,6 @@ export default function App() {
           <Details data={data.languages} defaultIcon={<CommentIcon />} />
           <Details data={data.interests} />
         </div>
-
         <div className="column right">
           <FullName text={data.fullName} />
           <Summary data={data.summary} />

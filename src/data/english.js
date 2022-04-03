@@ -18,7 +18,7 @@ const data = {
   /**
    * Full name
    */
-  fullName: 'Maciek Sitkowski',
+  fullName: 'wahab kehinde yusuf',
 
   /**
    * Summary - short "about me" paragraph
@@ -26,9 +26,9 @@ const data = {
   summary: {
     title: 'Summary',
     text: `
-      Front-end developer that has 1 year of experience developing web 
-      applications and building websites. Broadens his knowledge by actively 
-      contributing to Open Source projects.`,
+     Am a MERN-Stack Web developer with 2 year of practice and experience in developing web 
+      applications and building websites.I am an enthusiatic developer with an addiction for discovering new coding perspectives.!
+      `,
   },
 
   /**
@@ -38,25 +38,25 @@ const data = {
     title: 'Contact',
     list: [
       {
-        text: 'macieksitkowski.com',
-        url: 'https://macieksitkowski.com',
+        text: 'webagent-dev.',
+        url: '',
         icon: <FaGlobe />,
       },
       {
-        text: 'github.com/sitek94',
-        url: 'https://github.com/sitek94',
+        text: 'github.com/webagent-dev',
+        url: 'https://github.com/webagent-dev',
         icon: <FaGithub />,
       },
       {
-        text: 'msitkowski94@gmail.com',
+        text: 'webagent24@gmail.com',
         icon: <FaEnvelope />,
       },
       {
-        text: '+00 123 456 789',
+        text: '+2349035765646',
         icon: <FaPhoneAlt />,
       },
       {
-        text: 'Warsaw, Poland',
+        text: 'Lagos, Nigeria',
         icon: <FaMapMarkerAlt />,
       },
     ],
@@ -68,10 +68,9 @@ const data = {
   keySkills: {
     title: 'Key skills',
     list: [
-      { text: 'React, Redux, JSX' },
-      { text: 'JavaScript, D3.js' },
+      { text: 'React, Nextjs,Redux'},
+      { text: 'JavaScript HTML5, CSS3' },
       { text: 'Responsive Web Design' },
-      { text: 'HTML5, CSS3' },
     ],
   },
 
@@ -81,7 +80,7 @@ const data = {
   additionalSkills: {
     title: 'Additional skills',
     list: [
-      { text: 'Node.js, Webpack' },
+      { text: 'Node.js, expressjs' },
       { text: 'OAuth, Firebase' },
       { text: 'GitHub, Git' },
       { text: 'REST, GraphQL' },
@@ -95,9 +94,7 @@ const data = {
   languages: {
     title: 'Languages',
     list: [
-      { text: 'Polish - Native' },
       { text: 'English - Fluent' },
-      { text: 'Spanish - Communicative' },
     ],
   },
 
@@ -107,7 +104,7 @@ const data = {
   interests: {
     title: 'Interests',
     list: [
-      { text: 'Playing chess', icon: <FaChessKnight /> },
+      { text: 'Playing Gane', icon: <FaChessKnight /> },
       { text: 'Learning new things', icon: <FaReact /> },
       { text: 'Building habits', icon: <FaRegCalendarCheck /> },
       { text: 'Reading', icon: <FaBook /> },
@@ -119,7 +116,7 @@ const data = {
     title: 'Projects',
     list: [
       {
-        name: 'Habit Tracker App',
+        name: 'which is why at a glance',
         techList: [
           'React',
           'React Query',
@@ -128,18 +125,15 @@ const data = {
           'Material-UI',
         ],
         description: `
-          Habit Tracker is my final project for Harvard's CS50 course. It's 
-          built as MVP (minimal viable product) and its core functionality is to 
-          track user's habits.`,
-        url: 'https://habit-tracker.macieksitkowski.com/',
+        Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It's not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, “Its ‘words’ loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real.”`,
+        url: 'which is why at a glance',
       },
       {
-        name: 'Pocket Globe App',
+        name: 'requency with which',
         techList: ['React', 'D3.js', 'TopoJSON', 'Material-UI'],
         description: `
-          The app uses D3.js and React to create a highly interactive and responsive 
-          globe. It connects to various APIs to get data about selected country.`,
-        url: 'https://sitek94.github.io/pocket-globe-app',
+        Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It's not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, “Its ‘words’ loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real.”`,
+        url: 'hrequency with which',
       },
     ],
   },
@@ -153,42 +147,37 @@ const data = {
     title: 'Work experience',
     list: [
       {
-        company: 'Dolphin Bar & Restaurant',
-        location: 'Mallorca, Spain',
+        company: ' prevailing view assumed ',
+        location: 'Location',
         date: {
           start: '2018-05',
           end: '2019-10',
         },
         jobTitle: 'Bartender/Waiter',
         description: `
-          Working in one of the busiest restaurants on the island I became 
-          a better team player. Additionally it was a great opportunity to learn 
-          Spanish and further improve my English.`,
+        Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It's not Latin, though it looks like it, and it actually says nothing,”`,
       },
       {
-        company: 'Clothes2Order',
-        location: 'Manchester, United Kingdom',
+        company: 'view assumed lorem',
+        location: 'Location',
         date: {
           start: '2017-03',
           end: '2018-05',
         },
-        jobTitle: 'Customer Service Assistant',
+        jobTitle: 'view assumed lorem',
         description: `
-          Being a part of Customer Service team and talking over the phone 
-          with clients from all around the world helped me improve both my 
-          communication and collaboration skills.`,
+        Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It's not Latin, though it looks like it, and it actually says nothing,”.`,
       },
       {
-        company: 'Marks & Spencer',
-        location: 'Castle Donington, United Kingdom',
+        company: 'company',
+        location: 'Location',
         date: {
-          start: '2015-12',
-          end: '2017-01',
+          start: '2033-15',
+          end: '2056-01',
         },
-        jobTitle: 'Production Operative',
+        jobTitle: 'prevailing view',
         description: `
-          Working for the first time abroad and overcoming the challenges along 
-          the road taught me how to quickly adapt to new environments.`,
+        Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It's not Latin, though it looks like it, and it actually says nothing,”`,
       },
     ],
   },
@@ -230,7 +219,7 @@ const data = {
     list: [
       {
         institution: 'Warsaw University of Technology',
-        description: 'Architecture and Urban Planning',
+        description: 'the prevailing view assumed ',
         date: {
           start: '2014-09',
           end: '2015-09',
